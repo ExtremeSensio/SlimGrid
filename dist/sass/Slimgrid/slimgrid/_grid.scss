@@ -1,10 +1,10 @@
 
 @mixin generate-column($i,$suffix:"") {
   .#{$columnName}-#{$i}#{$suffix} {
-    width:#{$i}%;
+    width:#{$i}%!important;
   }
   .#{$columnName}-#{$i}#{$suffix}-no_important {
-    width:#{$i}%;
+    width:#{$i}%!important;
   }
 }
 
