@@ -24,10 +24,10 @@
 
 @mixin generate-column-exception( $value, $name, $breakSuffix:"") {
   .#{$columnName}-#{$name}#{$breakSuffix} {
-    width:#{$value}#{%}!important;
+    width:#{$value}%;
   }
   .#{$columnName}-#{$name}#{$breakSuffix}-no_important {
-    width:#{$value}#{%};
+    width:#{$value}%;
   }
 }
 
